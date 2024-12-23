@@ -2,6 +2,8 @@
 
 This project integrates several technologies to create a color-based LED control system. It uses Python with OpenCV to detect the most prominent color displayed on a computer screen. This color data is then sent via USB to an Arduino, which controls an LED lamp to emit the detected color using infrared signals. The system also features a Tkinter-based GUI that allows manual control of the LED colors through user input.
 
+![Alt text](AnimeColor/Universe7LastStand.png)
+
 ## Project Components
 
 - **Color Detection**: Python script with OpenCV to detect the most present color on the computer screen.

@@ -1,0 +1,2 @@
+To install this library paste the folder IRremote at path
+C:\Users\<your_username>\Documents\Arduino\libraries\

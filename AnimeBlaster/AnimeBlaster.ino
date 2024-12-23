@@ -8,7 +8,7 @@ int sender = 3;  // The pin number connected to the IR LED
 
 void setup()
 {
-  Serial.begin(9600);
+  Serial.begin(115200);
   irrecv.enableIRIn();
   pinMode(sender, OUTPUT);  // Set the IR LED pin as an output
 }

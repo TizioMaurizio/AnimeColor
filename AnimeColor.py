@@ -26,7 +26,7 @@ for serial_port_n in range(3, 20):
     serial_port = f"COM6"
     # print(f"Trying to connect to Arduino on port {serial_port}")
     try:
-        arduino = serial.Serial(serial_port, 9600, timeout=0)
+        arduino = serial.Serial(serial_port, 115200, timeout=0)
         print(f"Connected to Arduino on port {serial_port}")
         break
     except Exception:

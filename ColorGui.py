@@ -14,7 +14,7 @@ def check_port(port):
 # Establish connection to the serial port
 def connect_to_serial(port):
     try:
-        ser = serial.Serial(port, 9600, timeout=1)
+        ser = serial.Serial(port, 115200, timeout=1)
         return ser
     except serial.SerialException:
         messagebox.showerror("Connection Error", f"Failed to connect on {port}")
